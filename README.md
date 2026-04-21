@@ -89,21 +89,21 @@ What this does:
 When you run the script, you will see output like this: 
 
 Baseline Model Comparison
---------------------------------------------------
-Count + MultinomialNB: accuracy=0.6544, macro_f1=0.6259 
-Count + LogisticRegression: accuracy=0.6228, macro_f1=0.6138 
-TFIDF + MultinomialNB: accuracy=0.6913, macro_f1=0.6655 
-TFIDF + LinearSVC: accuracy=0.6824, macro_f1=0.6713 
-
-Best by accuracy: 
-TFIDF + MultinomialNB (accuracy=0.6913) 
-
-Best by macro F1: 
-TFIDF + LinearSVC (macro_f1=0.6713) 
-
-Recommended first model to ship: 
-TFIDF + LinearSVC 
-Reason: It has the strongest macro F1, which better matches the business goal of avoiding weak performance on minority or weaker classes. 
+-------------------------------------------------- 
+Count + MultinomialNB: accuracy=0.6544, macro_f1=0.6259  
+Count + LogisticRegression: accuracy=0.6228, macro_f1=0.6138  
+TFIDF + MultinomialNB: accuracy=0.6913, macro_f1=0.6655  
+TFIDF + LinearSVC: accuracy=0.6824, macro_f1=0.6713  
+ 
+Best by accuracy:  
+TFIDF + MultinomialNB (accuracy=0.6913)  
+ 
+Best by macro F1:  
+TFIDF + LinearSVC (macro_f1=0.6713)  
+ 
+Recommended first model to ship:  
+TFIDF + LinearSVC   
+Reason: It has the strongest macro F1, which better matches the business goal of avoiding weak performance on minority or weaker classes.  
 
 ---
 
